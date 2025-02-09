@@ -1,22 +1,31 @@
 # 🌍 Multilingual Translation API with M2M100
 
-This project provides an **async translation API** using `M2M100` from Hugging Face.
+This project provides an **async translation API** using `M2M100` from Hugging Face.This project is an asynchronous batch translation tool that translates English text into 100+ languages using Hugging Face's M2M100 model. The script, translate_async.py, leverages asyncio and aiohttp to handle 60 parallel translation requests, making it fast and efficient.
+
 
 ## 📌 Features
 ✅ Detects **source language**  
 ✅ Translates **to 100+ languages**  
 ✅ Uses **`asyncio` & `aiohttp`** for speed  
 ✅ Batch processing of **60 parallel requests**
+✅ Uses Hugging Face’s M2M100 model for accurate translation
 
-## 🖼️ Output Screenshot
-![Translation Output][/workspaces/M2M100_Translation_Script/asset]
+## 🔹 How It Works
+User provides a list of up to 60 English phrases.
+Each phrase is translated asynchronously using the M2M100 model.
+Translations are returned in JSON format, with detected language, translated text, and target language.
 
-## 📜 Script Description: `translate_async.py`
-`translate_async.py` is the **main script** for:
-- Detecting **input text language**
-- Translating text **to a random language**
-- Using `aiohttp` to process **60 parallel translations**
-- Running translations via Hugging Face's **M2M100 model**
+## 🚀 Technologies Used
+Hugging Face Transformers (M2M100, XLM-RoBERTa)
+Python Libraries: asyncio, aiohttp, torch, sentencepiece
+Streamlit Web App (Optional) for UI-based interaction
+🖼️
+
+## 📌 Future Improvements
+
+Deploy as an API using FastAPI
+Allow user-selected target languages
+Integrate text-to-speech for real-time voice translation
 
 ## 🚀 How to Run
 ###  Install Dependencies**
