@@ -11,7 +11,7 @@ This project provides an **async translation API** using `M2M100` from Hugging F
 ✅ Uses Hugging Face’s M2M100 model for accurate translation
 
 ## Outlook of tool 
-![Batch Translation Web App](/workspaces/M2M100_Translation_Script/asset)
+![Batch Translation Web App](/workspaces/M2M100_Translation_Script/asset/Screenshot 2025-02-09 at 3.21.12 PM.png)
 
 ## 🔹 How It Works
 User provides a list of up to 60 English phrases.
