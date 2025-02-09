@@ -68,3 +68,4 @@ if st.button("Translate"):
         # Provide CSV download option
         csv = df.to_csv(index=False).encode("utf-8")
         st.download_button("📥 Download Translations", csv, "translations.csv", "text/csv")
+
