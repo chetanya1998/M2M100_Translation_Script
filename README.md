@@ -1,4 +1,4 @@
-# 🌍 Multilingual Translation API with M2M100
+# 🌍 Project : Batch Translation Web App using M2M100 
 
 This project provides an **async translation API** using `M2M100` from Hugging Face.This project is an asynchronous batch translation tool that translates English text into 100+ languages using Hugging Face's M2M100 model. The script, translate_async.py, leverages asyncio and aiohttp to handle 60 parallel translation requests, making it fast and efficient.
 
