@@ -14,21 +14,21 @@ This project provides an **async translation API** using `M2M100` from Hugging F
 ![Outlook of Tool](asset/output.png)
 
 ## 🔹 How It Works
-User provides a list of up to 60 English phrases.
-Each phrase is translated asynchronously using the M2M100 model.
-Translations are returned in JSON format, with detected language, translated text, and target language.
+1. User provides a list of up to 60 English phrases.
+2. Each phrase is translated asynchronously using the M2M100 model.
+3. Translations are returned in JSON format, with detected language, translated text, and target language.
 
 ## 🚀 Technologies Used
-Hugging Face Transformers (M2M100, XLM-RoBERTa)
-Python Libraries: asyncio, aiohttp, torch, sentencepiece
-Streamlit Web App (Optional) for UI-based interaction
-🖼️
+1. Hugging Face Transformers (M2M100, XLM-RoBERTa)
+2. Python Libraries: asyncio, aiohttp, torch, sentencepiece
+3. Streamlit Web App (Optional) for UI-based interaction
+   
 
 ## 📌 Future Improvements
 
-Deploy as an API using FastAPI
-Allow user-selected target languages
-Integrate text-to-speech for real-time voice translation
+1. Deploy as an API using FastAPI
+2. Allow user-selected target languages
+3. Integrate text-to-speech for real-time voice translation
 
 ## 🚀 How to Run
 ###  Install Dependencies**
